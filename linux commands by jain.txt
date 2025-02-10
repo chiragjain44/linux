@@ -64,4 +64,5 @@ to add git with GitHub
 create reposistory in gitub then copu link of three line and paste it one by one 
 git push -u origin branchname(to get files in GitHub of other branch )
 git clone url(to copy file from another people code )
+git branch -M main(to into main menu from folder or master ;branch)
 
