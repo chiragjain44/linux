@@ -1,0 +1,67 @@
+
+ls= show file 
+touch data.txt= to create file
+rm  data.txt = to delete file
+mkdir test= to make folder
+rmdir  test =to remove folder
+cp command to copy file 
+cd change directory
+mv to move file 		
+
+cat command to show value in file 
+echo command to display content or value 
+echo also used to store content in file echo "chirag">file.txt this is syntax
+
+
+vi editor in Linux default'
+vi> modes 
+command mode=> save,undo,copy,close
+insert mode => write,modify
+
+command mode to insert mode press I
+insert mode to command mode press escape button
+
+in vi editor to save content  press escape then:w(for save)q(for quit)
+tar command how it is different fom zip file
+p for paste 
+yy for copy
+dd for cut or delete
+
+tar 
+tar -cf chirag.tar(tar file name) abc.txt(content filw store in chirag.tar)
+tar -tf chirag.tar to show content in chirag tar file
+tar -rf chirag.tar def.txt (to add one more file after making tar file)
+tar -xf chirag.tar(to extraxt file)
+wget url (to dow;load file from interney)
+yes "chirag is good" >hack.txt then Immediatrely pe=resse control c 
+ls -lh to show size of files
+tar -czf chirag.tgz hack.html (to comprees file)
+
+to switch in root user sudo -I 
+to switch from root to user su chiragjainswm
+to change password sudo passwd username 
+to add new user sudo adduser newnameof user
+to switch standard to standard user su username
+
+group user other > rwx rwx rwx r=4 w=2 x=1 r=read w=write x=execute 
+to change rwx in files chmod g+r t.txt 
+sudo apt install packagename to install packages
+
+ls -a to show hidden file 
+
+git commands 
+git init (compulsory after creating folder and befor making file)
+git add filename (compulsory to transfer file into staging area mtlb commit krne ke liye changer krne ke liye)
+git status (is is for checking statis of file)
+git  commit -m "text with filename "
+git log (those three command is essential commit add log)
+git branch (copy of original files )(to check how many branches there)
+git branch branchname (creat  branch of original file like copy  of main branch)
+git checkout branchname (to shift in branch )
+git merge branchname(to get files in main branch from duplicate branch)
+
+to add git with GitHub
+create reposistory in gitub then copu link of three line and paste it one by one 
+git push -u origin branchname(to get files in GitHub of other branch )
+git clone url(to copy file from another people code )
+
